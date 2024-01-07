@@ -1,95 +1,68 @@
+/*general Styles*/
 .body{
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-.header{
-    background-color: #333;
+    background-color: #000;
     color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-.h1{
-    font-size: 32px;
-
-}
-.section{
-    padding: 40px;
-}
-h2{
-    font-size: 24px;
-    margin-bottom: 20px;
-
-}
-.ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.li{
-    margin-bottom: 10px;
-}
-.a{
-    color: #333;
-    text-decoration: none;
-}
-
-.a:hover{
-    color:#ff6600;
-}
-.project{
-    margin-bottom: 20px;
-}
-.project h3{
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-#project p{
-    margin-bottom: 10px;
-}
-.form{
-    margin-bottom: 20px;
-}
-.input
-textarea{
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 8px;
-}
-.button{
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-
-}
-.button:hover{
-    background-color: #ff6600;
-}
-/*background Styles*/
-.body{
-    background: linear-gradient(135deg,#ffd9e6,#b3f0ff,#ffe6cc);
-    background-size: 400% 400%;
-    animation:gradient 15s infinite;
-}
-@keyframes gradientAnimation{
-    0%{
-        background-position: 0% 50%;
+ 
     }
-    50%{
-        background-position: 100% 50%;
+    .header{
+     background-color: #000;
+     padding: 20px;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     z-index: 1;
     }
-    100%{
-        background-position: 0% 50%;
+    .navbar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
     }
-}
-/*golden DEtails*/
-.golden{
-    color: #ffd700;
-}
-.golden-bg{
-    background-color: #ffd700;
-}
-
-
+    .brand-title{
+     font-size: 24px;
+     font-weight: bold;
+     color: #ffd700;
+    }
+    .nav-list{
+     list-style: none;
+     display: flex;
+    }
+     .nav-list li a{
+      color: #fff;
+      text-decoration: none;
+     ;
+     }
+     .burger{
+         display: none;
+         cursor: pointer;
+     }
+     .social-media-icons ul li a{
+         color: #ffd700;
+ 
+     }
+     .footer{
+         background-color: #000;
+         padding: 20px;
+         color: #ffd700;
+         text-align: center;
+     }
+ 
+     @media screen and (max-width: 768px){
+         .nav-list{
+             display: none;
+         }
+     }
+     .burger{
+         display: block;
+         cursor: pointer;
+     }
+     .line1
+     .line2
+     .line3
+     {
+         width: 25px;
+         height: 3px;
+         background-color: #fff;
+         margin: 5px;
+     } 
+       
