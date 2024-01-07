@@ -30,5 +30,5 @@ document.getElementById("contact-form").reset();
 
 //event listener for the form submission
 document.getElementById('contact-form').addEventListener('submit', submitForm);
+}
 
-   
