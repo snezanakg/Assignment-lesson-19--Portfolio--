@@ -1,50 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>MY PORTFOLIO</title>
-    <link rel="stylesheet" type="text/css" href="style/index.css">
+  <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="styleshit" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
+
 <body>
     <header>
-        <h1>About Me</h1>
-        <p>My name is Snezana Kragujevac-introduce</p>
+        <nav class="navbar">
+           <div class="brand-title">Portfolio</div>
+           <ul class="nav-list">
+               <li><a href="#AboutMe">AboutMe</a></li>
+               <li><a href="#Projects">Projects</a></li>
+               <li><a href="#Contact">Contact</a></li>
+              </ul>
+              <div class="burger">
+                  <div class="line1"></div>
+                  <div class="line2"></div>
+                  <div class="line3"></div>
+                </div>
+        </nav>
+
     </header>
+    <main>
+        <section id="AboutMe">
+            <h2>About Me</h2>
+            <p>Short description of yourself</p>
+            </section>
 
-    <section id="Expiriance">
-        <h2><Expiriance/Studies/Skills></h2>
+        <section id="Projects">
+            <h2>Examples of My work</h2>
+            <div class="Project">
+                <h3>Project 1</h3>
+                <p>Description of the Project</p>
+                <a href="#">Link to the Project</a>
+            </div>
+            <div class="Project">
+                <h3>Project 2</h3>
+                <p>Description of the Project</p>
+                <a href="#">Link to the Project</a>
+            </div>
+        </section>
+
+        <section id="Contact">
+            <h2>Contact Me</h2>
+           <form id="contact-form">
+            <input type="text" id="name" placeholder="=your name"required>
+            <input type="email" id="email" placeholder="=your email"required>
+            <textarea id="message" placeholder="=your message"required></textarea>
+            <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+<footer>
+    <div class="social-media-icons">
         <ul>
-            <li>Work expiriance or Studies</li>
-            <li>Skills you possess</li>
+            <li><a href="#"><i class="fab fa-github"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+
         </ul>
-    </section>
-
-
-    <section id="Projects">
-        <h2>Examples of My work</h2>
-        <div class="Project">
-            <h3>Project 1</h3>
-            <p>Description of the Project</p>
-            <a href="#">Link to the Project</a>
-        </div>
-        <div class="Project">
-            <h3>Project 2</h3>
-            <p>Description of the Project</p>
-            <a href="#">Link to the Project</a>
-        </div>
-    </section>
-
-    <section id="Contact">
-        <h2>Contact Me</h2>
-       <form id="contact-form">
-        <input type="text" id="name" placeholder="=your name"required>
-        <input type="email" id="email" placeholder="=your email"required>
-        <textarea id="message" placeholder="=your message"required></textarea>
-        <button type="submit">Send Message</button>
-        </form>
-    </section>
-    <script src="script.js"></script>
-
-
+    </div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
- 
+
