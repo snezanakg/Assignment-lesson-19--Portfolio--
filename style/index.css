@@ -1,7 +1,9 @@
 /*general Styles*/
 .body{
    background-color: #000;
-   color: #070707;
+   color:#ffd700;
+   margin: 0;
+   padding: 0;
 
    }
    .header{
@@ -45,6 +47,10 @@
         padding: 20px;
         color: #ffd700;
         text-align: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
     }
 
     @media screen and (max-width: 768px){
@@ -54,7 +60,7 @@
     }
     .burger{
         display: block;
-        cursor: pointer;
+    
     }
     .line1
     .line2
@@ -62,6 +68,6 @@
     {
         width: 25px;
         height: 3px;
-        background-color:'#070707';
+        background-color:#ffd700;
         margin: 5px;
     } 
