@@ -1,68 +1,54 @@
 /*general Styles*/
 .body{
-    background-color: #000;
-    color: #070707;
+    background: color #222;;
+    color: #fff;
+     font-family:Arial, sans-serif;
+    margin: 0;
+    padding: 0;
  
-    }
-    .header{
-     background-color: #000;
+ }
+ .a{
+     color: #fff;
+     text-decoration: none;
+ 
+ }
+ /*header styles*/
+ .header{
+     background: color #111;;
      padding: 20px;
-     position: fixed;
-     top: 0;
-     left: 0;
-     width: 100%;
-     z-index: 1;
-    }
-    .navbar{
+ }
+ 
+ .navbar{
      display: flex;
-     justify-content: space-between;
      align-items: center;
-    }
-    .brand-title{
-     font-size: 24px;
-     font-weight: bold;
-     color: #ffd700;
-    }
-    .nav-list{
+     justify-content: space-between;
+ }
+ .brand-title{
+     font-size:24;
+     
+ }
+ 
+ .navbar-list{
      list-style: none;
      display: flex;
-    }
-     .nav-list li a{
-      color:#070707;
-      text-decoration: none;
-     ;
-     }
-     .burger{
-         display: none;
-         cursor: pointer;
-     }
-     .social-media-icons ul li a{
-         color: #ffd700;
+     gap: 20px;
+ }
+ .navbar-list li a{
+     font-size: 18px;
+ }
+ .burger{
+     display: none;
  
-     }
-     .footer{
-         background-color: #000;
-         padding: 20px;
-         color: #ffd700;
-         text-align: center;
-     }
- 
-     @media screen and (max-width: 768px){
-         .nav-list{
-             display: none;
-         }
-     }
-     .burger{
-         display: block;
-         cursor: pointer;
-     }
-     .line1
-     .line2
-     .line3
-     {
-         width: 25px;
-         height: 3px;
-         background-color:#ffd700;
-         margin: 5px;
-     } 
- 
+ }
+ /*footer styles*/
+ .footer{
+     background: color #111;
+     text-align: center;
+     padding: 20px;
+ }
+ .social-media-icons ul{
+     list-style: none;
+     display: flex;
+     gap: 10px;
+     justify-content: center;
+ }

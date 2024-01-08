@@ -1,0 +1,43 @@
+.h1{
+    font-size: 24px;
+    padding: 20px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.ul li a{
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+}
+/*dark mode*/
+.body.dark.mode{
+    background-color: #111;
+    color: #fff;
+}
+.body.dark.mode a{
+    color:#000;
+}
+.header.dark.mode{
+    background-color: #000;
+}
+.footer.dark.mode{
+    background-color: #000;
+}
+.contac-section.dark.mode{
+    background-color: #fff;
+}
+.contact-section.dark-mode
+.contact-form input
+.contact-section.dark-mode
+.contact-form textarea{
+    background-color: #222;
+    color: #fff
+}
+.project-page.dark-mode h1{
+    color: #fff;
+}
+.project-page.dark-mode ul li a{
+    color: #fff;
+}

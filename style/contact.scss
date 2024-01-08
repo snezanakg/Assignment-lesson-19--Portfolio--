@@ -1,0 +1,37 @@
+.contact-section{
+    padding: 20px;
+}
+.contact-section h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+.contact-form
+.form-group{
+    display: flex;
+    flex-direction: column;
+  
+}
+.contact-form label{
+    font-size: 18px;
+}
+.contact-form input 
+.contact-form textarea{
+    padding: 10px;
+   font-size: 16px;
+}
+.contact-form button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background: color #fff;
+    color:#222;
+    border: none;
+    cursor: pointer;
+}
