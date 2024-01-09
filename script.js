@@ -9,7 +9,6 @@ function toggleMenu() {
 //event listener for the mobile navigation menu
 document.querySelector('.burger').addEventListener('click', toggleMenu);
 //function to handle form submission
-function submitForm() {
    function submitForm(event) {
          event.preventDefault();
     //get the values from the form
@@ -20,15 +19,14 @@ function submitForm() {
     const message=
     document.getElementById('message').value;
 
-    //send formdate to beckend or perform desired action
+    //send formdata to backend or perform desired action
     console.log("Name: "+name);
     console.log("Email: "+email);
     console.log("Message: "+message);
 }
 //reset the form
-document.getElementById("contact-form").reset();
-
+document.getElementById("contact").reset();
 //event listener for the form submission
-document.getElementById('contact-form').addEventListener('submit', submitForm);
-}
+document.getElementById('contact').addEventListener('submit', submitForm);
+
 

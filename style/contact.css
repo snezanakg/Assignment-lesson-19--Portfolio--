@@ -35,3 +35,8 @@
     border: none;
     cursor: pointer;
 }
+.body{
+    background-image: url(images/Image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -2,3 +2,8 @@
     padding: 20px;
     font-size: 18px;
 }
+.body{
+    background-image: url(images/Image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,5 +1,8 @@
 /*general Styles*/
 .body{
+    background-image: url(images/Image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
    background: color #222;;
    color: #fff;
     font-family:Arial, sans-serif;
